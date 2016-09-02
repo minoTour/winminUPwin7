@@ -1,11 +1,2 @@
-.\minUP.exe -bwa  -cs 2016-05-19_12:45:13 -d -dbh localhost -dbp 3306 -dbu Mike1 -f C:\DeepSEQ_WIP\referenceGenomes\Zika_Africa.fasta -indexToRefDir -n 4 -name R9_test -o minionowner -procs 4 -pw 1234 -r 0 -u Mike1 -useHdfTimes -v -w C:\DeepSEQ_WIP\reads\Zika_R9
-PID: 13316windows
-Processing the reference fasta.
-Traceback (most recent call last):
-  File "minUP.py", line 541, in <module>
-  File "processRefFasta.pyc", line 88, in process_ref_fasta
-  File "Bio\SeqIO\__init__.pyc", line 572, in parse
-  File "contextlib.pyc", line 17, in __enter__
-  File "Bio\File.pyc", line 90, in as_handle
-IOError: [Errno 2] No such file or directory: 'C:\\DeepSEQ_WIP\\referenceGenomes\\Zika_Africa.fasta'
-FASTA file: C:\DeepSEQ_WIP\referenceGenomes\Zika_Africa.fasta
+.\minUP.exe -bwa -cs 2016-09-01_15:46:24 -d -dbh localhost -dbp 3306 -dbu Mike1 -f C:\DeepSEQ_WIP\referenceGenomes\lambda.fasta -n 1 -name 19_08_16 -o minionowner -pre -prealign -procs 1 -pw 1234 -r 0 -u Mike1 -useHdfTimes -v high -w C:\DeepSEQ_WIP\reads\ML_tests\AGBT_Day1\reads_noRU
+PID: 17848
